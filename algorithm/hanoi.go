@@ -3,8 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	n := 3
 
+	fmt.Println("阿飞哥做的汉诺塔函数")
+	n := 3
+	
 	Hanoi(n, "A", "B", "C")
 }
 
