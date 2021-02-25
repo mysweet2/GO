@@ -1,0 +1,9 @@
+{
+    "go.alternateTools": {
+    
+    },
+
+    "gopls": {
+        "experimentalWorkspaceModule": true
+    }
+}
