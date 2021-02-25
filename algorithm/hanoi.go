@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var i int;
+
 func main() {
 
 	fmt.Println("阿飞哥做的汉诺塔函数")
@@ -11,7 +13,8 @@ func main() {
 }
 
 func move(n int, startPos string, endPos string) {
-	fmt.Println("第%d步:将%d号盘子%v---->%v", n, startPos, endPos)
+	i++
+	fmt.Printf("第%v步:将%v号盘子%v---->%v\n", i, n, startPos, endPos)
 }
 
 // Hanoi 汉诺塔
