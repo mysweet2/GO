@@ -1,14 +1,14 @@
-package main
+package algorithm
 
 import "fmt"
 
-var i int;
+var i int
 
-func main() {
+func m2() {
 
 	fmt.Println("阿飞哥做的汉诺塔函数")
 	n := 3
-	
+
 	Hanoi(n, "A", "B", "C")
 }
 
